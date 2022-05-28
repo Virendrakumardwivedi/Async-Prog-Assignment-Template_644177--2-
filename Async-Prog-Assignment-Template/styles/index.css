@@ -1,0 +1,52 @@
+#navbar {
+    width: 95%;
+   display: flex;
+   gap: 20px;
+   justify-content: flex-end;
+   border: 1px solid rgb(37, 37, 37);
+   padding: 10px;
+   margin-top: 3%;
+   text-align: center;
+   margin-left: 2%;
+ 
+ }
+ a {
+    text-decoration: none;
+  }
+  #navbar a:hover {
+    color: rgb(15, 15, 15);
+  }
+  #navbar a {
+    cursor: pointer;
+  }
+  img{
+    padding-top: 2%;
+    padding-left: 14%;
+     width: 65%;
+     height: 500px;
+  }
+  h2{
+      color: blueviolet;
+      margin-left: 12%;
+  }
+  
+  #movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  h4{
+    margin-left: 12%;
+    color: darkslategray;
+
+  }
+#slideshow{
+    background-color: black;
+    margin-top: 1%;
+}
+#v_sort{
+    margin: 3% 4% 3% 4%;
+    padding: 2% 2% 2% 4%;
+    background-color: darkslategray;
+    color: aqua;
+    font-size: larger;
+}

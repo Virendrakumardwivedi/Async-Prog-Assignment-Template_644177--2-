@@ -1,0 +1,51 @@
+#navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    border: 1px solid rgb(37, 37, 37);
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  #navbar a:hover {
+    color: rgb(15, 15, 15);
+  }
+  #navbar a {
+    cursor: pointer;
+  }
+
+  #signup-form-div{
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid black; */
+        padding-top: 5%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+  }
+
+ #submit{
+   display: flex;
+   background-color:teal;
+   margin-left: 40%;
+   margin-top: 4%;
+ }
+ #email{
+     margin-bottom:4% ;
+     padding: 1% 2% 1% 2%;
+ }
+ #pass{
+    margin-bottom:4% ;
+    padding: 1% 2% 1% 2%;
+ }
+ #user{
+    margin-bottom:4% ;
+    padding: 1% 2% 1% 2%;
+ }
+ #num{
+    margin-bottom:4% ;
+    padding: 1% 2% 1% 2%;   
+ }
